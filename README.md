@@ -7,7 +7,7 @@ This command fires an Intent to have your devices video player show the video.
 
 This plugin is only for the Android platform of Cordova/Phonegap.
 
-    https://github.com/tdurand/videoplayer-phonegap3
+    phonegap local plugin add https://github.com/tdurand/videoplayer-phonegap3
 
 ## Using the plugin ##
 
