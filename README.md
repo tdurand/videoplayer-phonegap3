@@ -11,7 +11,7 @@ This plugin is only for the Android platform of Cordova/Phonegap.
 
 ## Using the plugin ##
 
-The plugin creates the object `window.plugins.videoPlayer`.  To use, call the play() method:
+The plugin creates the object `window.videoPlayer`.  To use, call the play() method:
 
 <pre>
   /**
@@ -24,10 +24,10 @@ The plugin creates the object `window.plugins.videoPlayer`.  To use, call the pl
 
 Sample use:
 
-    window.plugins.videoPlayer.play("http://path.to.my/video.mp4");
-    window.plugins.videoPlayer.play("file:///path/to/my/video.mp4");
-    window.plugins.videoPlayer.play("file:///android_asset/www/path/to/my/video.mp4");
-    window.plugins.videoPlayer.play("https://www.youtube.com/watch?v=en_sVVjWFKk");
+    window.videoPlayer.play("http://path.to.my/video.mp4");
+    window.videoPlayer.play("file:///path/to/my/video.mp4");
+    window.videoPlayer.play("file:///android_asset/www/path/to/my/video.mp4");
+    window.videoPlayer.play("https://www.youtube.com/watch?v=en_sVVjWFKk");
 
 Note: When playing video from the assets folder, the video is first copied to internal storage with MODE_WORLD_READABLE.
 
